@@ -1,0 +1,207 @@
+.navbar-custom {
+  background-color: orange ;
+  border-color: black; 
+   <!--it is color of bg and border if nav-->
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: black;<!-- this is the color of  content if nav features about register-->
+}
+ 
+.navbar-custom .navbar-nav > li > .dropdown-menu {
+  background-color: orange; <!-- this is the dropdown backgrd color-->
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a {
+  color: #363223; <!--this is the text color of dropdown contents-->
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color:white;
+  background-color: grey; <!--this is the color of dropdown and its backgrd on select -->
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #ff8000; <!--this is the color of home -->
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+  color: #f4f4ed;
+  background-color: grey; <!--this is the color when features about register is selected-->
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+
+strong {
+  font-weight: 400;
+}
+.tile.red {
+ position: absolute;
+    right: 70px;
+ top:-200px;
+ width: 400px;
+  height:140px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.orange {
+ position: absolute;
+    right: -10px;
+top:-200px;  
+width: 400px;
+  height:140px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.grey{
+ position: absolute;
+    right: -80px;
+ top:-200px;
+ width: 400px;
+  height:140px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.green {
+ position: absolute;
+top:-3px;
+    right:70px ;
+ width: 400px;
+  height:140px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.blue{
+position: absolute;
+top:-3px;
+    right: -10px;
+ width: 400px;
+  height:140px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.purpel{
+ position: absolute;
+top:-3px;
+    right:-80px ;
+ width: 400px;
+  height:140px;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile .title {
+  margin-top: 0px;
+}
+ .tile.blue, .tile.red, .tile.orange, .tile.green,.tile.yellow,.tile.purpel {
+  color: #fff;
+}
+
+.tile.red {
+  background: #ac193d;
+}
+.tile.red:hover {
+  background: #7f132d;
+}
+.tile.green {
+  background: #00a600;
+}
+.tile.green:hover {
+  background: #007300;
+}
+.tile.blue {
+  background: #2672ec;
+}
+.tile.blue:hover {
+  background: #125acd;
+}
+.tile.orange {
+  background: #dc572e;
+}
+.tile.orange:hover {
+  background: #b8431f;
+}
+.tile.grey{
+  background:#605885;
+}
+.tile.grey:hover {
+  background: #433b67;
+}
+.tile.purpel {
+  background:#7027c3;
+}
+.tile.purpel:hover {
+  background: #800080;
+}
+
+.adv{
+border-style: solid  ;
+        border-width: 4px;
+        border-color:grey;
+        background-color:grey;
+        margin: 80px 300px 40px 300px;
+        padding:50px;
+}
+.famebox{
+text-align:center;
+}
+.blink {
+			 border-style:    dotted ;
+			 border-width: 4px;
+			 border-color: yellow;
+			 background-color:orange;
+font-size:40px;
+cursor:pointer;
+margin 40px 40px 40px 40px;
+}
+.blink:hover{
+background-color:#dc572e;
+border-color:orange;
+} 
+#promo{
+font-size:30px;
+color:white;
+}
+
+#hf{
+font-size:30px;
+text-align:center;
+color:white;
+}
+#hof{
+font-size:30px;
+color:orange;
+}
+.footer{
+font-size:20px;
+text-align:center
+}
+#footer{
+	color:orange;
+}
+table {
+   
+    border-collapse:collapse;
+    width:100%
+    
+}

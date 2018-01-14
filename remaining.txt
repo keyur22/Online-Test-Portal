@@ -1,0 +1,40 @@
+ideas:
+1.	adding more options to each search result and adding support for more things in the search system
+2.	modify statistics to show growth of the user both overall and in a particular subject
+3.	add friend system to compare test results and growth
+
+
+------------------------------
+
+
+mcq filling:
+total subjects: 76
+total chapters: 528
+computer science chapters: 302
+
+
+
+
+
+
+tasks
+1. 	mcqs and university downloading
+2.	appropriate background for the site - saif
+3.	advertising the advantages of creating an account to guest users - kyur
+4.	displaying a warning msg that if we change the sem or course details, all the recotd of the subject will be erased
+5.	time of test is starting on instructions
+
+bugs:
+2.	carousal images shift to left - saif
+3.	empty msg should be displayed when hall of fame is empty
+
+done:
+4.	making changes in test pages for independent subjects - sri	*
+2.	errors when quitting test midway - kyur
+3.	guest test not working - sri	*
+4.	signup pages allowing to go back - kyur
+
+
+tasks division:
+
+1.	signup_specific allowing to enter both sem and qualification

@@ -1,0 +1,167 @@
+.navbar-custom {
+  background-color: orange ;
+  border-color: black; 
+   <!--it is color of bg and border if nav-->
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: black;<!-- this is the color of  content if nav features about register-->
+}
+ 
+.navbar-custom .navbar-nav > li > .dropdown-menu {
+  background-color: orange; <!-- this is the dropdown backgrd color-->
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a {
+  color: #363223; <!--this is the text color of dropdown contents-->
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color:white;
+  background-color: grey; <!--this is the color of dropdown and its backgrd on select -->
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #ff8000; <!--this is the color of home -->
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+  color: #f4f4ed;
+  background-color: grey; <!--this is the color when features about register is selected-->
+}
+<!--THIS IS FOR LEFT AND RIGHT BAR -->
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #363223;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f4f4ed;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f4f4ed;
+    background-color: #1d52d2;
+  }
+}
+		
+
+
+#fame{
+	position: absolute;
+    background:#343434;
+    bottom:100px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	
+	
+}
+
+#r{
+	
+	
+	bottom:306px;
+	right: -65px;
+	
+}		
+		
+		
+ 
+		
+		
+	
+		
+		.carousel-inner > .item > img,
+			.carousel-inner > .item > a > img {
+				width: 40%;
+				height: 40%;
+				margin: auto;
+			}
+		
+		a:hover {
+			color: grey;
+		}
+		.blink {border-style:    dotted ;
+			 border-width: 4px;
+			 border-color: yellow;
+			 background-color: orange;
+			 margin: 20px 20px 4px 40px;
+	
+}
+strong {
+  font-weight: 400;
+}
+
+.tile.red {
+ position: absolute;
+    right: -30px;
+    bottom:100px;
+width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.orange {
+ position: absolute;
+    right: -65px;
+ bottom: 100px;
+width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.green {
+ position: absolute;
+    top: -80px;
+    right:-30px ;
+width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile.blue{
+position: absolute;
+    top: -80px;
+    right: -65px;
+ width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #fff;
+  padding:20px;
+  margin-bottom: 10px;
+}
+.tile .title {
+  margin-top: 0px;
+}
+ .tile.blue, .tile.red, .tile.orange, .tile.green {
+  color: #fff;
+}
+
+.tile.red {
+  background: #ac193d;
+}
+.tile.red:hover {
+  background: #7f132d;
+}
+.tile.green {
+  background: #00a600;
+}
+.tile.green:hover {
+  background: #007300;
+}
+.tile.blue {
+  background: #2672ec;
+}
+.tile.blue:hover {
+  background: #125acd;
+}
+.tile.orange {
+  background: #dc572e;
+}
+.tile.orange:hover {
+  background: #b8431f;
+}

@@ -1,0 +1,95 @@
+.question{
+background-color:;
+font: 50px Magneto, sans-;
+text-align:center;
+color:orange;
+}
+#date{
+color:orange;
+text-align:left;
+}
+#left_time{
+color:red;
+
+}
+#que{
+color:;
+}
+.panel{
+/*background-color:grey;*/
+border:1px solid orange;
+}
+#choices{
+	/*color:white;*/
+}
+
+#display-question{
+color:black;
+}
+#jump{
+ text-align: center;	
+}
+#jumpt{
+	color:grey;
+	text-align:center;
+}
+#jump{
+display:inline-block;
+/*padding-left:500px;auto*/
+margin: 10px;
+border-radius:4px;
+
+}
+#jump>li{display:inline}
+#jump>li>a,
+#jump>li>span{
+position:relative;
+float:center;
+padding:6px 12px;
+margin-left:-1px;
+line-height:1.42857143;
+color:orange;
+text-decoration:none;
+background-color:#fff;
+border:1px solid #ddd
+}
+#jump>li:first-child>a,
+#jump>li:first-child>span{
+margin-left:0;
+border-top-left-radius:4px;
+border-bottom-left-radius:4px
+}
+#jump>li:last-child>a,
+#jump>li:last-child>span
+{
+border-top-right-radius:4px;
+border-bottom-right-radius:4px
+}
+#jump>li>a:focus,
+#jump>li>a:hover,
+#jump>li>span:focus,
+#jump>li>span:hover{z-index:2;color:white;
+background-color:orange;
+bordercolor:#ddd
+}
+
+#previous{
+color:orange;
+}
+#previous:hover{
+color:grey;
+}
+#subm{
+background-color:green;
+color:white;
+}
+#subm:hover{
+background-color:;
+color:orange;
+}
+#next{
+color:orange;
+}
+#next:hover{
+color:grey;
+}
