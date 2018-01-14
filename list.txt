@@ -1,0 +1,64 @@
+****List of all files****
+
+1.	login system
+	1.1	login.html - front-end of login
+	1.2	login.php - back-end of login
+	1.3	logout.php - destroys the session of the user
+2.	signup system
+	2.1	signup(form).php - the front-end of basic form
+	2.2	signup.php - the back-end of basic form
+	2.3 signup_specific.php - the front-end of specific form
+	2.4	signup_specific(form).php - the back-end of specific form
+3.	home.php - the main page of the users
+4.	theme.php - includes the navigation bar and contains the code for left side bar
+5.	navigation.php - contains the code for navigation bar
+6.	essential files
+	6.1 required.php - contains bootstrap include files and has other necessary things
+	6.2	core.inc.php - contains necessary functions
+	6.3	connect_db.php - connects to the database
+7.	test system
+	7.1	pretest01.php - helps to choose subject
+	7.2	pretest02.php - helps to choose chapter
+	7.3	questiongenerator.php - helps to generate a paper
+	7.4 test.php - shows one question at a time
+	7.5	time_left.php - counts time left
+	7.6	timeout.php - shows the time out message
+	7.7 answers.php - calculates score ans stores it in db
+	7.8	score_card.php - shows the score card for the paper
+	7.9 solution_set.php - shows the solution set for the paper
+	7.10 option.php - stores users choices in a session
+	7.11 rating.php - takes the rating for overall paper from user and updates rating of each mcq of the paper from the db
+8. personal and settings
+	8.1	personal.php - shows the personal details of the user
+	8.2	settings.php - shows general settings
+	8.3	changePassword.php - changes user's password
+	8.4	reset.php - resets the user's account
+	8.5 delete.php - deletes the user's account
+	8.6	confirm.php - shows the confirm message
+	8.7	personalSettings.php - allows editing personal details of the user
+	8.8	postpersonalSettings.php - saves changes made in personal details
+	8.9	uploadPhoto.php - allows user to change photo
+	8.10 postuploadPhoto.php - saves photo selected by the user
+9. interests
+	9.1	interest.php - shows the current interests of the user
+	9.2	remove.php - removes the subject from the list of interests
+10.	search system
+	10.1 searchMain.php - takes input and calls the search.php page
+	10.2 search.php - shows the interests
+	10.3 add.php - adds the subject into the list of interests
+11.	feedback system
+	11.1 reportproblem.php - takes problem from the user
+	11.2 report.php - stores the report in the db
+	11.3 feedback.php - takes rating and feedback from the user and stores entered comment in db
+	11.4 comment.php - shows comments of other users
+	11.5 rating_store.php - stores the rating in the db
+	11.6 aboutus.php - shows info about the developers
+12.	Question system
+	12.1 preupload.php - allows to choose subject and calls upload.php to show the form
+	12.2 upload.php - takes question and details from user and passes to postupload.php
+	12.3 postupload.php - stores the mcq in db
+	12.4 uploadedmcqs01.php - allows to choose subject
+	12.5 uploadedmcqs02.php - takes subject and shows questions uploaded of that subject
+	12.6 mcq.php - shows the mcq and its details
+13.	right_bar.php - contains code of right side bar
+	
